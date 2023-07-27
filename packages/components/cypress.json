@@ -5,5 +5,11 @@
     "viewportHeight": 660,
     "viewportWidth": 1000
   },
-  "video": false
+  "video": false,
+  "reporter": "mocha-ibutsu-reporter",
+  "reporterOptions": {
+    "project": "frontend-components",
+    "component": "some-component",
+    "outputDir": "results/"
+  }
 }
